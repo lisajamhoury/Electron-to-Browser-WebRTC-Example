@@ -10,15 +10,15 @@ To clone and run this repository you'll need [Git](https://git-scm.com) and [Nod
 
 ```bash
 # Clone this repository
-git clone ADD REPO HERE
+git clone https://github.com/lisajamhoury/Electron-to-Browser-WebRTC-Example
 # Go into the Electron application folder
-cd electron_app
+cd Electron-to-Browser-WebRTC-Example/electron_app
 # Install dependencies
 npm install
 # Run the Electron app — this will start the signaling server in Electron
 npm start
 # In a new command line window, go into the client folder
-cd browser_client
+cd Electron-to-Browser-WebRTC-Example/browser_client
 # Run a simple python server on your localhost 
 # If python 2
 python -m SimpleHTTPServer 
